@@ -14,4 +14,5 @@ def fizzbuzz(num)
   return 'fizzbuzz' if divisible_by_15?(num)
   return 'fizz' if divisible_by_3?(num)
   return 'buzz' if divisible_by_5?(num)
+  num
 end
